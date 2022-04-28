@@ -30,7 +30,7 @@ public class SabPaisa extends CordovaPlugin {
                     callback.error("something went wrong" + ex);
                 }
         }else{
-            callback.error("Do not pass empty value" + ex);
+            callback.error("Do not pass empty value");
         }
     }
 }
