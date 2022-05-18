@@ -1,26 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-sabpaisa" version="0.0.1"
-	xmlns="http://apache.org/cordova/ns/plugins/1.0"
-	xmlns:android="http://schemas.android.com/apk/res/android">
-	<name>SabPaisa</name>
-	<js-module name="SabPaisa" src="www/SabPaisa.js">
-		<clobbers target="SabPaisa" />
-	</js-module>
-	<platform name="android">
-		<config-file parent="/*" target="res/xml/config.xml">
-			<feature name="SabPaisa">
-				<param name="android-package" value="cordova.plugin.sabpaisa.SabPaisa" />
-			</feature>
-		</config-file>
-		<config-file parent="/*" target="AndroidManifest.xml" />
-		<source-file src="src/android/SabPaisa.java" target-dir="src/cordova/plugin/sabpaisa/SabPaisa" />
-	</platform>
-	<platform name="ios">
-		<config-file parent="/*" target="config.xml">
-			<feature name="SabPaisa">
-				<param name="ios-package" value="SabPaisa" />
-			</feature>
-		</config-file>
-		<source-file src="src/ios/SabPaisa.m" />
-	</platform>
-</plugin>
+<plugin id="cordova-plugin-sabpaisa" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"><name>sabpaisa</name><js-module name="sabpaisa" src="www/sabpaisa.js"><clobbers target="cordova.plugins.sabpaisa" /></js-module><platform name="android"><config-file parent="/*" target="res/xml/config.xml"><feature name="sabpaisa"><param name="android-package" value="cordova-plugin-sabpaisa.sabpaisa" /></feature></config-file><config-file parent="/*" target="AndroidManifest.xml" /><source-file src="src/android/sabpaisa.java" target-dir="src/cordova-plugin-sabpaisa/sabpaisa" /></platform><platform name="ios"><config-file parent="/*" target="config.xml"><feature name="sabpaisa"><param name="ios-package" value="sabpaisa" /></feature></config-file><source-file src="src/ios/sabpaisa.m" /></platform></plugin>

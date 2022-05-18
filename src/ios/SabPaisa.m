@@ -1,15 +1,15 @@
-/********* SabPaisa.m Cordova Plugin Implementation *******/
+/********* sabpaisa.m Cordova Plugin Implementation *******/
 
 #import <Cordova/CDV.h>
 
-@interface SabPaisa : CDVPlugin {
+@interface sabpaisa : CDVPlugin {
   // Member variables go here.
 }
 
 - (void)coolMethod:(CDVInvokedUrlCommand*)command;
 @end
 
-@implementation SabPaisa
+@implementation sabpaisa
 
 - (void)coolMethod:(CDVInvokedUrlCommand*)command
 {

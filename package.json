@@ -1,13 +1,18 @@
 {
-  "name": "sabpaisa",
-  "version": "1.0.0",
-  "description": "this is sabpaisa sdk",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "Sabpaisa",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "cordova-plugin-sabpaisa",
+    "platforms": [
+      "android",
+      "ios"
+    ]
   },
   "keywords": [
-    "sabpaisaSdk"
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
   ],
   "author": "",
   "license": "ISC"
